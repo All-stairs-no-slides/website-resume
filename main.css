@@ -2,3 +2,17 @@ div.row {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+div.secs {
+    min-height: 100vh;
+    padding-top: 40vh;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+} 
+
+.shown {
+    opacity: 1;
+}
