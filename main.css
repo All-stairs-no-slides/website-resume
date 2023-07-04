@@ -10,9 +10,11 @@ div.secs {
 
 .hidden{
     opacity: 0;
-    transition: all 1s;
+    transform: translateX(-100%);
+    transition: all 1.5s;
 } 
 
 .shown {
+    transform: translateX(0);
     opacity: 1;
 }
