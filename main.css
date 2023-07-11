@@ -18,3 +18,7 @@ div.secs {
     transform: translateX(0);
     opacity: 1;
 }
+
+.nav-item {
+    padding-top: 3px;
+}
